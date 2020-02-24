@@ -20,7 +20,7 @@ public class StepDefinitions {
 
     @Given("a web browser is on the Google page")
     public void aWebBrowserIsOnTheGooglePage() throws Exception {
-        throw new Exception("exception in given");
+        //throw new Exception("exception in given");
     }
 
     @When("the search phrase {string} is entered")
@@ -30,7 +30,7 @@ public class StepDefinitions {
 
     @Then("results for {string} are shown")
     public void resultsForAreShown(String arg0) throws Exception {
-        throw new Exception("exception!");
+        //throw new Exception("exception!");
     }
 
     @And("the related results include {string}")
